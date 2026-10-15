@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | escape }} · Office Disguise</title>
+    <style>
+      body {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        font:
+          16px/1.65 system-ui,
+          sans-serif;
+        color: #242424;
+      }
+      a {
+        color: #0f6cbd;
+        overflow-wrap: anywhere;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 16px;
+      }
+      table {
+        display: block;
+        overflow-x: auto;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      footer {
+        border-top: 1px solid #ddd;
+        margin-top: 40px;
+        padding-top: 16px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav aria-label="Documentation">
+      <a href="{{ '/' | relative_url }}">Office Disguise</a>
+      <a href="{{ '/privacy.html' | relative_url }}">Privacy</a>
+      <a href="{{ '/support.html' | relative_url }}">Support</a>
+      <a href="{{ '/CHANGELOG.html' | relative_url }}">Release notes</a>
+    </nav>
+    <main>{{ content }}</main>
+    <footer>
+      Published by 3400lowe, United Kingdom.
+      <a href="mailto:info@quotesbytrades.co.uk">Contact</a>. Independent of
+      Google, Microsoft, Reddit and X.
+    </footer>
+  </body>
+</html>

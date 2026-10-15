@@ -1,0 +1,8 @@
+title: Office Disguise
+description: Documentation and support for Office Disguise
+url: https://3400lowe.github.io
+baseurl: /office-disguise
+markdown: kramdown
+exclude:
+  - README.md
+  - SECURITY.md
