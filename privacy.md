@@ -22,6 +22,13 @@ To show a post's comments or replies, it uses the site's own pages in your norma
 
 Videos you play are shown from the site's own player within the page.
 
+## Local data categories and limited use
+
+To provide the inbox, Office Disguise processes website content (posts, comments, replies and media links), identifying information displayed on those pages (author names, usernames and profile links), supported-site page addresses, and local reading/selection and scroll state. This is local data handling even though no feed content or activity telemetry is sent to the developer. It does not read Chrome's browsing-history database, record keystroke logs, or access email or direct-message inboxes.
+
+Office Disguise uses this information only to provide its disclosed reading interface and related user-facing controls, in accordance with the Chrome Web Store User Data Policy, including its Limited Use requirements. It does not sell this information, use it for personalised advertising, use it for creditworthiness or lending, or transfer it for unrelated purposes. The developer has no remote access to the locally processed feed. Information you voluntarily send for support is handled separately as described below.
+
+
 ## What it stores
 
 | Data                                                                                                                                                     | Where                                                                                           | How long                                                           |
